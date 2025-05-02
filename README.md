@@ -4,8 +4,7 @@ This project builds an end-to-end **financial analytics pipeline on Microsoft Az
 
 ---
 
-## 🌐 Architecture Overview
-(Images/Diagram2.drawio.png)
+![Azure Financial Analytics Architecture](Images/Diagram2.drawio.png)
 ---
 
 ## 📦 Dataset Summary
