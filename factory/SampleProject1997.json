@@ -1,0 +1,9 @@
+{
+	"name": "SampleProject1997",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f44019b8-b661-4ea4-9eee-b0852e11fd1e",
+		"tenantId": "cf9df4a2-5ada-4752-a463-7d778a7d5f1c"
+	}
+}
