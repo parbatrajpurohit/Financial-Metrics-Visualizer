@@ -61,6 +61,7 @@ You can use:
 ## 📊 Sample Dashboard Ideas
 
 - 💹 Company rankings by market cap
+- ![image](https://github.com/user-attachments/assets/4f924ed4-99b9-4b74-908a-64fa1452faa5)
 - 🏦 P/E ratio vs earnings comparison
 - 📈 Revenue vs dividend yield correlations
 - 🧮 Sector-wide performance indicators
