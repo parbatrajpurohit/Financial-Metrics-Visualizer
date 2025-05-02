@@ -1,0 +1,48 @@
+{
+	"name": "ranked_by_dividend",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Companies_ranked_by_Dividend_Yield.csv",
+				"container": "rawdata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Rank",
+				"type": "String"
+			},
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "Symbol",
+				"type": "String"
+			},
+			{
+				"name": "dividend_yield_ttm",
+				"type": "String"
+			},
+			{
+				"name": "price (GBP)",
+				"type": "String"
+			},
+			{
+				"name": "country",
+				"type": "String"
+			}
+		]
+	}
+}
